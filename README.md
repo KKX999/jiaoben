@@ -16,7 +16,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/91yuntest
 ## BBR加速
 
 ```
-bash <(curl -Lso- https://github.com/teddysun/across/raw/master/bbr.sh)
+wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 ```
 
 ## 三网测速
